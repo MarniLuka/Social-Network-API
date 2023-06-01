@@ -1,6 +1,6 @@
 const { User } = require('../models');
 
-model.exports = {
+module.exports = {
     // Get all users
     async getUser (req, res) {
         try {
