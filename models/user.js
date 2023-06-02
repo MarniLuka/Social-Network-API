@@ -12,7 +12,7 @@ const userSchema = new Schema({
         require: true,
         unique: true,
         // regex for email validation. (double check if it works...)
-        match: /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+        match: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
     },
     thoughts: [
         {
